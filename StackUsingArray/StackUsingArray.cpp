@@ -72,7 +72,7 @@ int main() {
 		switch (ch) {
 		case '1': {
 			cout << "\nEnter an Element :";
-			s.push(element);
+			s.push();
 			break;
 		}
 		case '2':
