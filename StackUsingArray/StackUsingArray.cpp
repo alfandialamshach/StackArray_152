@@ -75,7 +75,16 @@ int main() {
 			s.push(element);
 			break;
 		}
-		
+		case '2':
+			if (s.empety()) {
+				cout << "\nStack is empety" << endl;
+				break;
+			}
+			s.pop();
+			break;
+		case '3':
+			s.display();
+
 		}
 	}
 }
