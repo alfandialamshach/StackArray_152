@@ -38,5 +38,28 @@ public:
 
 	}
 
-	//method for ch
+	//method for check if data is empety
+	bool empety() {
+		return (top == -1);
+	}
+
+	void display() {
+		if (empety()) {
+			cout << "\nStack is empety." << endl;
+		}
+		else {
+			for (int tmp = 0; tmp <= top; tmp++) {
+				cout << stack_array[tmp] endl;
+			}
+		}
+	}
 };
+
+int main() {
+	StackArray s;
+	char ch;
+	while (true) {
+		cout << endl;
+
+	}
+}
