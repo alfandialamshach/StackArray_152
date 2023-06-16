@@ -14,7 +14,9 @@ public:
 		top = -1;
 	}
 
-	int push(int element) {
+	int push() {
+		int element;
+		cin >> element;
 		if (top == 4) {
 			cout << "Number of data exceeds the limit." << endl;
 			return 0;
@@ -70,8 +72,6 @@ int main() {
 		switch (ch) {
 		case '1': {
 			cout << "\nEnter an Element :";
-			int element;
-			cin >> element;
 			s.push(element);
 			break;
 		}
